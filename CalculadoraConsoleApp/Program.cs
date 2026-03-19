@@ -139,9 +139,17 @@ while (true == true)
         historicoOperacoes[operacoes] = posicaoOperacao;
         operacoes++;
     }
+
+    else
+    {
+        historicoOperacoes = new string[100];
+        operacoes = 0;
+
+        historicoOperacoes[operacoes] = posicaoOperacao;
+        operacoes++;
+    }
+
     Console.WriteLine("O resultado é: " + resultado);
-
-
 
     Console.ReadLine();
 }
