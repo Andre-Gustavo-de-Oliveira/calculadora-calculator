@@ -64,7 +64,7 @@ while (true == true)
 
         int fimTabuada = Convert.ToInt32(strFimMultiplicacao);
 
-        for (int escolhaUsuario = inicioTabuada; escolhaUsuario <= fimTabuada; escolhaUsuario = escolhaUsuario++)
+        for (int escolhaUsuario = inicioTabuada; escolhaUsuario <= fimTabuada; escolhaUsuario++)
         {
             Console.WriteLine($"{numeroInserido} x {escolhaUsuario} = {numeroInserido * escolhaUsuario} ");
         }
